@@ -2,7 +2,7 @@
 
 ## Description
 
-A lite note-taker application that stores notes server-side. Makes use of the Express package.
+A light note-taker application that stores notes server-side. Makes use of the Express package.
 
 ## Installation
 
@@ -12,12 +12,12 @@ Clone this repo to your machine and open a terminal at its directory. To install
 
 ### Deployed Version
 
-Visit the [https://evening-plains-76399.herokuapp.com](deployed version) and click `Get Started`. You can test the functionality here by adding or removing notes.
+Visit the [deployed application](https://evening-plains-76399.herokuapp.com) and click `Get Started`. You can test the functionality here by adding or removing notes.
 
 
 ### Local Version
 
-Open a terminal at the application directory and run `npm start`. A message will be logged out with the active port number. Open a browser window at the address http://localhost:PORT, where PORT is the value read back to you by the terminal. 
+Open a terminal at the application directory and run `npm start`. A message will be logged out with the active port number. Open a browser window at the address `http://localhost:PORT`, where PORT is the value read back to you by the terminal. 
 
 ## License
 
