@@ -19,6 +19,7 @@ DELETE /api/notes/:id - Should receive a query parameter containing the id of a 
 
     app.post('/api/notes', (req, res, next) => {
         let newNote = req.body;
+        newNote.id = Math.floor(Math.random() * 100000);
         fs.readFile(db, 'utf8', (err, data) => {
             if (err) throw err;
             data = JSON.parse(data);
@@ -29,6 +30,21 @@ DELETE /api/notes/:id - Should receive a query parameter containing the id of a 
                 res.end(db);
             });
         });
+
+    app.delete('/api/notes/:id', (req, res, next) => {
+        let idToDelete = req.params.id;
+        console.log('Delete ' + idToDelete)
+        fs.readFile(db, 'utf8', (err, data) => {
+            if (err) throw err;
+            data = JSON.parse(data);
+            data = data.filter(note => note.id != idToDelete);
+            data = JSON.stringify(data);
+            fs.writeFile(db, data, (err) => {
+                if (err) throw err;
+                res.send(db);
+            })
+        })
+    })
 
 
 
