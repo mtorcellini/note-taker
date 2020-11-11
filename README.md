@@ -12,6 +12,8 @@ Clone this repo to your machine and open a terminal at its directory. To install
 
 ## Usage
 
+![screenshot of noteworthy app](./screenshot.png)
+
 ### Deployed Version
 
 Visit the [deployed application](https://evening-plains-76399.herokuapp.com) and click `Get Started`. You can test the functionality here by adding or removing notes.
