@@ -1,4 +1,4 @@
-# Note Taker
+# Noteworthy
 
 [Heroku Deployed Application](https://evening-plains-76399.herokuapp.com)
 
