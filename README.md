@@ -16,7 +16,7 @@ Clone this repo to your machine and open a terminal at its directory. To install
 
 ### Deployed Version
 
-Visit the [deployed application](https://evening-plains-76399.herokuapp.com) and click `Get Started`. You can test the functionality here by adding or removing notes.
+Visit the [deployed application](https://evening-plains-76399.herokuapp.com) and click `Make a Note`. You can test the functionality here by adding or removing notes.
 
 
 ### Local Version
